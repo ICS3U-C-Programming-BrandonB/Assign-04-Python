@@ -17,7 +17,7 @@ def main():
         sum1 = constants.MULTIPLE3 * counter
         counter = counter + 1
         print("{} * {} = {}".format(constants.MULTIPLE3, counter, sum1))
-    # for loop to calculate the multiples of 3
+    # while loop to calculate the multiples of 3
     while counter2 <= 199:
         sum2 = constants.MULTIPLE5 * counter2
         print("{} * {} = {}".format(constants.MULTIPLE5, counter2, sum2))
